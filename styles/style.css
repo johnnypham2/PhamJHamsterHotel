@@ -172,3 +172,41 @@ h2 {
     font-family: sourceSans;
     font-size: 16px;
 }
+.amenitiesBG {
+    background-image: url(../assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 110% 200%;
+    background-position: 70% 75%;
+}
+.amenities-header {
+    font-family: dosisRegular;
+    font-size: 35px;
+    color: #FFFFFF;
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.amenities-text {
+    font-family: sourceSans;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 200;
+    margin-bottom: 85px;
+}
+.amenities-img {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.img-title {
+    font-family: sourceSans;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
