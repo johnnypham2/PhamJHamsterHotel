@@ -34,3 +34,100 @@
     background-size: 100% 240%;
     background-position: 0% 55%;
 }
+.header1 {
+    font-family: dosisRegular;
+    font-size: 45px;
+    font-weight: 400;
+}
+.caption1 {
+    font-size: sourceSans;
+    font-size: 16px;
+    font-weight: 300;
+}
+.squareHover:hover {
+    border: 2px solid #E5FEFF;
+    padding: 3px 15px;
+}
+.paradiseImg {
+    object-fit: cover;
+}
+.paradise-title {
+    font-family: dosisRegular;
+    font-size: 35px;
+    color: #1A1B26;
+}
+.paradise-margin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.paradise-text {
+    font-family: sourceSans;
+    font-size: 16px;
+    color: #1A1B26;
+    padding-right: 100px;
+    line-height: 20px;
+}
+.roomHeader {
+    color: #FFFFFF;
+    font-family: dosisRegular;
+    font-size: 35px;
+    font-weight: 300;
+}
+.roomBG {
+    background-image: url(../assets/images/bg2.jpg);
+    width: 100%;
+    height: 738px;
+    background-repeat: no-repeat;
+    background-size: 100% 180%;
+    background-position: 0% 60%;
+}
+.card {
+    border: none;
+    border-radius: 0px;
+}
+.card-img,
+.card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+ul {
+    padding: 0px 0px 0px 15px;
+}
+.card-title {
+    font-family: dosisRegular;
+    font-size: 25px;
+}
+.card-text {
+    font-family: sourceSans;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list-text {
+    font-family: sourceSans;
+    font-size: 16px;
+}
+.notextwrap {
+    white-space: nowrap;
+}
+ul li span {
+    display: block;
+    margin-left: -.5em;
+}
+.footer-border {
+    border: none;
+    background-color: white;
+}
+.reserve-btn {
+    font-family: sourceSans;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+}
+.btn-primary {
+    background-color: #004CC7;
+}
