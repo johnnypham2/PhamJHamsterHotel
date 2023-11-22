@@ -86,6 +86,14 @@
     border: none;
     border-radius: 0px;
 }
+.zoomIn {
+    overflow: hidden;
+}
+
+.img-crop {
+    transform: scale(1.5);
+    object-fit: cover;
+}
 .card-img,
 .card-img-top {
     border-top-left-radius: 0px;
@@ -209,4 +217,56 @@ h2 {
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 150px;
+}
+.reserveBG {
+    background-color: #000324;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.reserve-title {
+    font-family: dosisRegular;
+    font-size: 35px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+.reserve-txt {
+    font-family: sourceSans;
+    font-size: 16px;
+    color: #E5FEFF;
+    display: flex;
+}
+.input-style {
+    background-color: #EBEDFC;
+    border: 1px solid #7A90D9;
+    border-radius: initial;
+    height: 44px;
+}
+.input-padding {
+    padding-left: 80px;
+    padding-right: 30px;
+}
+.btn-info {
+    background-color: #006EDB;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: sourceSans;
+    font-weight: bold;
+    border-radius: 0px;
+    border: 1px solid #006EDB;
+    margin-bottom: 55px;
+}
+.img-reserve {
+    object-fit: cover;
+    object-position: 0% 60%;
+}
+.footerBG {
+    background-color: #000324;
+}
+.footer-txt {
+    color: #E5FEFF;
+    font-family: sourceSans;
+    font-size: 16px;
+}
+.footer-margin {
+    margin-bottom: 100px;
 }
