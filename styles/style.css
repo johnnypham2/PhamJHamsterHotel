@@ -7,8 +7,22 @@
     font-family: sourceSans;
     src: url(../assets/fonts/SourceSans3-VariableFont_wght.ttf);
 }
+.logoSize {
+    width: 143px;
+    height: 100px;
+}
+
+.logoSize-res {
+    width: 120px;
+    height: 84px;
+}
 .blackBG {
     background-color: #000324;
+}
+.nav-link-res {
+    font-size: 18px !important;
+    padding-left: 10px !important;
+    padding-right: 10px;
 }
 .nav-link {
     color: white;
@@ -16,6 +30,10 @@
     font-size: 20px;
     padding-left: 20px;
     margin-bottom: 5px;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -80%;
 }
 .introText {
     background-color: #000324;
